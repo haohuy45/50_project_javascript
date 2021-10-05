@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #A164DF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn{
+    background-color: #6C38A0;
+    border: 0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: #fff;
+}

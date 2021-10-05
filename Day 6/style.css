@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    margin: 10px;
+}
+.box{
+    background-color: #4682B4;
+    margin: 10px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-400%);
+    transition: transform 0.5s ease;
+    
+}
+.box:nth-of-type(even){
+    transform: translateX(400%);
+}
+
+.box.show{
+    transform: translateX(0);
+}
+
+.box h2{
+    margin: 37.350px;
+    font-size: 45px;
+    color: #fff;
+
+}

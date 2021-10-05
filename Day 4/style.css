@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: #7359E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.search{
+    height: 50px;
+    transition: 0.5s ease;
+    position: relative;
+
+
+}
+
+.search .input{
+    border: none;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    transition: width 0.5s ease;
+
+}
+
+.search .button{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    transition: transform 0.5s ease;
+
+}
+.search .input:focus{
+    outline: none;
+}
+
+.search.active .button{
+    transform: translateX(200px);
+}
+.search.active .input{
+    width: 250px;
+}
+/* .search{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    transition: 0.5s ease;
+
+}
+.search .input{
+    border: none;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    transition: width 0.5s ease;
+
+}
+.search .button{
+    position: absolute;
+    border: 0;
+    top: 0;
+    left: 0;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+    font-size: 20px;
+    background-color: #fff;
+    transition: transform 0.5s ease;
+
+}
+.search .input:focus{
+    outline: none;
+}
+
+.search.active .button{
+    transform: translateX(200px);
+}
+.search.active .input{
+    width: 250px;
+} */
